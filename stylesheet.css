@@ -1,0 +1,77 @@
+body {
+    background-color: whitesmoke;
+}
+
+main {
+    background-color: white;
+}
+
+.blue {
+    color: black;
+}
+
+.infoFlex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+    
+}
+
+
+
+
+
+
+/* Style för länkar  */
+.links {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+
+    list-style: none;
+    margin: 0;
+    background: lightgreen;
+}
+
+.links a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: white;
+
+   
+   }
+
+   
+   @media all and (max-width: 800px) {
+    .links {
+        justify-content: space-around;
+    }
+    }
+
+    @media all and (max-width: 600px) {
+        .links {
+            flex-flow: colum wrap;
+        }
+    }
+
+    .links a {
+        text-align: center;
+        padding: 15px;
+        border-top: 1px solid rgba(255, 255, 255,0.3);
+    }
+
+    .omMig {
+        display: flexbox;
+        justify-content: center;
+        align-items: center;
+        background: white;
+        width: 60%;
+        height: 40%;
+    }
+
+    
+
+   
+
