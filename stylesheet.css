@@ -1,10 +1,20 @@
 body {
-    background-color: whitesmoke;
+    background-color: wheat;
+    margin: o;
+    padding-top: 2%;
+    font-family: 'Source Sans 3', sans-serif;
 }
 
 main {
-    background-color: white;
+    background-color: wheat;
+    font-family: 'Source Sans 3', sans-serif;
 }
+
+footer {
+    font-family: 'Source Sans 3', sans-serif;
+    
+}
+
 
 .blue {
     color: black;
@@ -13,11 +23,23 @@ main {
 .infoFlex {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: center;
 
     
 }
 
+#profilbild {
+    width: 720px;
+    border-radius: 25%;
+    
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
 
 
 
@@ -31,14 +53,14 @@ main {
 
     list-style: none;
     margin: 0;
-    background: lightgreen;
+    background: wheat;
 }
 
 .links a {
     text-decoration: none;
     display: block;
     padding: 1em;
-    color: white;
+    color: black;
 
    
    }
@@ -63,15 +85,29 @@ main {
     }
 
     .omMig {
-        display: flexbox;
-        justify-content: center;
-        align-items: center;
+        display: flex;
+        
+       
+        
+        
+        
         background: white;
-        width: 60%;
-        height: 40%;
+       
     }
 
     
 
-   
+    .button {
+        background-color: green;
+        border: double;
+        border-color: black;
+        color: white;
+        padding: 20px 34px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 10px;
+        cursor: pointer;
+      }
 
